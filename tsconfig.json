@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.jsx", "middleware.jsx", "pages/api/seed.jsx", "pages/api/migrate.jsx", "pages/api/login.jsx", "pages/api/user/update.jsx", "pages/api/user/findAll.jsx", "pages/api/user/find.jsx", "pages/api/user/delete.jsx", "pages/api/user/create.jsx", "pages/api/siswa/update.jsx", "pages/api/siswa/total.jsx", "pages/api/siswa/findAll.jsx", "pages/api/siswa/find.jsx", "pages/api/siswa/delete.jsx", "pages/api/siswa/create.jsx"],
+  "exclude": ["node_modules"]
+}
